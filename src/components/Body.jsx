@@ -3,7 +3,7 @@ import React,{useState, useEffect} from "react";
 import axios from "axios"
 function Body(){
 
-const baseUrl = process.env.REACT_APP_BASE_URL 
+const baseUrl = "https://database-pc.tailbc669c.ts.net"
     
 
     return(

@@ -5,7 +5,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import Find from "./Find";
 import SimpleExcelReader from "./Excel";
 function OpenTender() {
-  const baseUrl = process.env.REACT_APP_BASE_URL 
+  const baseUrl = "https://database-pc.tailbc669c.ts.net"
   const [editingProduct, setEditingProduct] = useState(null);
   const [editFormData, setEditFormData] = useState({
     BidRequest: "",
