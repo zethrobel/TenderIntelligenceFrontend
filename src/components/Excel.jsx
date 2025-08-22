@@ -3,7 +3,7 @@ import * as XLSX from 'xlsx';
 import axios from "axios";
 
 function SimpleExcelReader(props) {
-  const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:4000" 
+  const baseUrl = process.env.REACT_APP_BASE_URL
   const [data, setData] = useState([]);
   const [currentCompany, setCurrentCompany] = useState({
     id: props.id,

@@ -5,7 +5,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import Find from "./Find";
 import SimpleExcelReader from './Excel';
 function LibraryTender(props) {
-  const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:4000" 
+  const baseUrl = process.env.REACT_APP_BASE_URL  
   const [editingProduct, setEditingProduct] = useState(null); //this set the id of the clicked company and it's specific product
   const [editFormData, setEditFormData] = useState({
     // This is for the new input (the update or the edit)
