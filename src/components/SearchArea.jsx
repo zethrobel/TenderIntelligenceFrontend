@@ -5,7 +5,7 @@ import { List, AutoSizer, CellMeasurer, CellMeasurerCache } from 'react-virtuali
 import Chip from '@mui/material/Chip'
 
 function SearchArea() {
-  const baseUrl = "http://localhost:4000" ||"https://database-pc.tailbc669c.ts.net";
+  const baseUrl = process.env.REACT_APP_BASE_URL || "http://localhost:4000" 
   const [keyWord, setKeyWord] = useState("");
   const [result, setResults] = useState([]);
   const [analysis,setAnalysis] = useState([]);
